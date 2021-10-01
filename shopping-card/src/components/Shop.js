@@ -52,16 +52,42 @@ function Shop({ products }) {
                   Filters <a className="text-muted fs-6" href="#">Clear Filters</a>
                 </li>
                 <li className="list-group-item fw-bold fs-6 mb-3"> Categories</li>
-                {
-                  categories.map((item,index)=> (
-                    <li key={index} className="list-group-item">
-                    <label id={item.name} class="checkbox-container">{item.name}
-                    <input type="checkbox" id={item.name} name={item.name}     />
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                  ))
-                } 
+                <li className="list-group-item">
+                                <label id="Jackets" class="checkbox-container">Jackets
+                                    <input type="checkbox" id="Jackets" name="Jackets" />
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            <li className="list-group-item">
+                                <label id="Fleece" class="checkbox-container">Fleece
+                                    <input type="checkbox" id="Fleece" name="Fleece" />
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            <li className="list-group-item">
+                                <label id="Hoodies" class="checkbox-container">Sweater&Hoodies
+                                    <input type="checkbox" id="Hoodies" name="Hoodies" />
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            <li className="list-group-item">
+                                <label id="Shirts" class="checkbox-container">Shirts
+                                    <input type="checkbox" id="Shirts" name="Shirts" />
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            <li className="list-group-item">
+                                <label id="Tshirts" class="checkbox-container">T-shirts
+                                    <input type="checkbox" id="Tshirts" name="Tshirts" />
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            <li className="list-group-item">
+                                <label id="Pants" class="checkbox-container">Pants&Jeans
+                                    <input type="checkbox" id="Pants" name="Pants" />
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
 
               </ul>
             </div>
